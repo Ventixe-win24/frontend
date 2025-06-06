@@ -136,11 +136,30 @@ border-radius: 1rem;
 padding: 1.5rem;
 }
 
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  height: 30px;
+}
+
+.brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--secondary-110);
+  margin: 0;
+}
+
 header {
 grid-area: header;
 background-color: var(--nav-background-color);
 border-radius: 1rem;
 padding: 1.5rem;
+font-weight: bold;
 }
 
 main {
@@ -156,3 +175,48 @@ background-color: var(--nav-background-color);
 border-radius: 1rem;
 padding: 1.5rem;
 }
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+  background-color: var(--gray-20);
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  border-top: 1px solid var(--gray-20);
+  color: var(--gray-60);
+}
+
+.footer-left {
+  font-weight: bold;
+  color: var(--gray-70);
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row; 
+  margin-left: 2rem; 
+  gap: 1.5rem;
+  color: var(--gray-50);
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+  color: var(--gray-50);
+}
+
+.event-details {
+  margin-left: 1rem;
+}
+
+.event-detail {
+  margin-left: 1rem;
+  color: var(--cool-gray-60);
+}
+
+.btn-book {
+  color: blue;
+  background-color: var(--button-background-color);
+}
+
